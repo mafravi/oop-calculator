@@ -9,4 +9,5 @@ $cal = $_POST['cal'];
 $calculator = new calc($num1,$num2,$cal);
 
 echo $calculator->calcMethod();
+redirect('index.html');
 
